@@ -3,11 +3,6 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-//         $mail->Host       = $this->host;          // set the SMTP server
-//         $mail->Port       = $this->port;                    // set the SMTP port
-//         $mail->Username   = $this->username; // SMTP account username
-//         $mail->Password   = $this->password;
-
 class Mailer {
 
 	private $username, $password, $host, $port;

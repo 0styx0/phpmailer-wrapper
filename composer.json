@@ -1,0 +1,6 @@
+{
+	"name": "phpmailer-wrapper",
+	"require": {
+		"phpmailer/phpmailer": "^6.0"
+	}
+}

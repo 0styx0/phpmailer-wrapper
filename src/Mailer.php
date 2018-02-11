@@ -2,19 +2,19 @@
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+require 'vendor/autoload.php';
 
 class Mailer {
 
 	private $username, $password, $host, $port;
 
-	public function __construct(string $username, string $password, string $host, integer $port) {
+	public function __construct(string $username, string $password, string $host, int $port) {
 
 		$this->username = $username;
 		$this->password = $password;
 		$this->host     = $host;
 		$this->port     = $port;
 	}
-
 
     /**
       * @param $from - assoc array ["email" => $email, "name" => $name]
@@ -27,7 +27,6 @@ class Mailer {
       */
     function send(array $from, array $to, string $subject, string $body, array $attachments = []) {
 
-        exit; // need constances to be filled in
         $mail = new PHPMailer();
 
         $mail->IsSMTP();                           // telling the class to use SMTP

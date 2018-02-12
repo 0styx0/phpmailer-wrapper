@@ -4,7 +4,7 @@
     "description": "Simple wrapper for PHPMailer",
     "keywords": ["phpmailer","wrapper"],
     "homepage": "https://github.com/DovidM/phpmailer-wrapper",
-    "license": "GPL3",
+    "license": "GPL",
     "authors": [
         {
             "name": "Dovid Meiseles",
